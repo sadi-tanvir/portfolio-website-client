@@ -27,7 +27,7 @@ const ProfileDropDown = (props) => {
                     onClick={() => setState(!state)}
                 >
                     <img
-                        src="https://randomuser.me/api/portraits/men/46.jpg"
+                        src="/assets/img/sadi.png"
                         className="w-full h-full rounded-full"
                     />
                 </button>
@@ -43,6 +43,7 @@ const ProfileDropDown = (props) => {
                             <a key={idx} className="block text-gray-600 lg:hover:bg-gray-50 lg:p-2.5" href={item.path}>
                                 {item.title}
                             </a>
+
                         </li>
                     ))
                 }
